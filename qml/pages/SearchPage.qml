@@ -191,6 +191,17 @@ Rectangle {
          divider.colorTo: Colors.borderColor
          highlightColor: Colors.highlightColor
 
+         trailingActions: ListItemActions {
+            actions: [
+               Action {
+                  iconName: "edit-copy"
+                  onTriggered: {
+                     Clipboard.push(searchResultsModel.get(index).url)
+                  }
+               }
+            ]
+         }
+
          onClicked: {
             pageStack.pop()
             emit: stationChanged(JSON.parse(JSON.stringify(searchResultsModel.get(index))))
