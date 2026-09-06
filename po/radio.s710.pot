@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: radio.s710\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-05 17:48+0000\n"
+"POT-Creation-Date: 2026-09-06 08:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,12 +54,12 @@ msgid "Tags"
 msgstr ""
 
 #: ../qml/net/Network.qml:117 ../qml/pages/SearchPage.qml:30
-#: ../qml/pages/SearchPage.qml:224
+#: ../qml/pages/SearchPage.qml:245
 msgid "Votes"
 msgstr ""
 
 #: ../qml/net/Network.qml:118 ../qml/pages/SearchPage.qml:31
-#: ../qml/pages/SearchPage.qml:229
+#: ../qml/pages/SearchPage.qml:250
 msgid "Click count"
 msgstr ""
 
@@ -79,69 +79,69 @@ msgstr ""
 msgid "Favourites"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:309
+#: ../qml/pages/MainPage.qml:321
 msgid ""
 "Failed to lookup hostname for radio-browser.info. Searching for web streams "
 "might be unavailable. Check internet connection and restart app."
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:309 ../qml/pages/SearchPage.qml:171
+#: ../qml/pages/MainPage.qml:321 ../qml/pages/SearchPage.qml:174
 msgid "Radio Browser"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:354 ../qml/pages/MainPage.qml:423
+#: ../qml/pages/MainPage.qml:366 ../qml/pages/MainPage.qml:435
 msgid "Playing"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:354
+#: ../qml/pages/MainPage.qml:366
 msgid "Web stream"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:366
+#: ../qml/pages/MainPage.qml:378
 msgid "Connection broken, trying to reconnect ..."
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:366
+#: ../qml/pages/MainPage.qml:378
 msgid "Reconnecting"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:424
+#: ../qml/pages/MainPage.qml:436
 msgid "Stopped"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:425
+#: ../qml/pages/MainPage.qml:437
 msgid "Paused"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:431
+#: ../qml/pages/MainPage.qml:443
 msgid "NoMedia"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:432
+#: ../qml/pages/MainPage.qml:444
 msgid "Loading"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:434
+#: ../qml/pages/MainPage.qml:446
 msgid "Buffering"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:435
+#: ../qml/pages/MainPage.qml:447
 msgid "Stalled"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:436
+#: ../qml/pages/MainPage.qml:448
 msgid "Buffered"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:437
+#: ../qml/pages/MainPage.qml:449
 msgid "End of media"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:438
+#: ../qml/pages/MainPage.qml:450
 msgid "Invalid media"
 msgstr ""
 
-#: ../qml/pages/MainPage.qml:439
+#: ../qml/pages/MainPage.qml:451
 msgid "Unknown status"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Enter search term"
 msgstr ""
 
-#: ../qml/pages/SearchPage.qml:171
+#: ../qml/pages/SearchPage.qml:174
 msgid ""
 "Failed to search for stations at radio-browser.info. Check internet "
 "connection."
