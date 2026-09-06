@@ -158,7 +158,10 @@ Rectangle {
             text: i18n.tr("Search")
             enabled: searchInputField.text.length
             SlotsLayout.position: SlotsLayout.Trailing;
-            onClicked: startSearch()
+            onClicked: {
+               busySearching.running = true
+               startSearch()
+            }
          }
       }
    }
@@ -171,7 +174,14 @@ Rectangle {
             Notify.error(i18n.tr("Radio Browser"), i18n.tr("Failed to search for stations at radio-browser.info. Check internet connection.") + "\n" + err)
          else
             (results || []).forEach(function(r) { searchResultsModel.append(r) })
+            busySearching.running = false
       })
+   }
+
+   ActivityIndicator {
+      id: busySearching
+      anchors.centerIn: parent
+      running: false
    }
 
    ListView {
