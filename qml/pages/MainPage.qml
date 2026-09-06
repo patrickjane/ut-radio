@@ -280,6 +280,18 @@ Rectangle {
                }
             ]
          }
+
+         trailingActions: ListItemActions {
+            actions: [
+               Action {
+                  iconName: "edit-copy"
+                  onTriggered: {
+                     Clipboard.push(url)
+                  }
+               }
+            ]
+         }
+
          SlotsLayout {
             id: layout
             mainSlot: Label {
